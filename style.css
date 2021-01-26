@@ -1,0 +1,70 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+form {
+	border: 1px solid #EFEFEF;
+	border-radius: 1px ;
+	margin: 10px auto 0 auto;
+	width: 300px;
+	background-color: #EFEFEF;
+	text-align: center;
+}
+
+form h2 {
+	padding: 5px 0 10px 0;
+	color: #838383;
+	text-shadow: 1px 1px 2px #ddd;
+}
+
+.valid {
+	display: block;
+	margin: 0 auto 10px auto;
+	padding: 0 5px;
+	height: 30px;
+	width: 250px;
+	border: 1px solid #CFCFCF;
+	border-radius: 2px;
+	background-color: #fff;
+	font: 17px Arial sans-serif;
+
+	-moz-transition: box-shadow 0.6s, width 0.4s, background-color 0.4s linear;
+	-webkit-transition: box-shadow 0.6s, width 0.4s, background-color 0.4s linear;
+	transition: box-shadow 0.6s, width 0.4s, background-color 0.4s linear;
+}
+
+
+.valid:focus {
+	background-color: #C9C9C9;
+	width: 255px;
+}
+
+form #button {
+
+	margin: 0 auto 10px auto;
+	padding: 5px 10px;
+	border: 1px solid #CFCFCF;
+	border-radius: 3px;
+	background-color: #F6DD11;
+	font-weight: bold;
+	width:100px;
+	
+	-moz-transition: background-color 0.2s, box-shadow 0.05s linear;
+	-webkit-transition: background-color 0.2s, box-shadow 0.05s linear;
+	transition: background-color 0.2s, box-shadow 0.05s linear;
+}
+
+form #button:hover {
+	background-color: #D4D4D4;
+}
+form #button:active {
+	border: 1px solid #fe0;
+	
+}
+
+form p{
+	font-size: 9px;
+	text-align: left;
+	margin-left:20px;
+}
